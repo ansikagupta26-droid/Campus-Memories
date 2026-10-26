@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    min-height: 100vh;
+    background-image: url("images/campus-background.png");
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-button {
+    background-color: teal;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.box{
+    margin-top: 2px;
+}
+.heading{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.para{
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+.btn {
+   background-color: #286d68;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 12px;
+    text-align: center;
+    margin-top:100 ;
+}
+.tagline{
+   display: inline-block;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center; 
+}
+
+
+
+
+
+
+.picnic-header {
+    background-color: white;
+    padding: 20px;
+}
+
+.picnic-page {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.picnic-scene {
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.picnic-image {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.picnic-content {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    right: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+.picnic-title {
+    color: blue;
+    font-size: 60px;
+    margin-bottom: 15px;
+
+}
+
+.picnic-description {
+    color: rgb(218, 12, 12);
+    font-size: 20px;
+}
+
+
+.picnic-list {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+.picnic-date,
+.picnic-address {
+    color: rgb(226, 38, 57);
+    font-size: 20px;
+}
