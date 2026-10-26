@@ -25,7 +25,6 @@ main {
 .logo {
     color: black;
     font-size: 15px;
-    font-weight: bold;
 }
 
 .nav-button {
@@ -34,7 +33,6 @@ main {
     padding: 10px 18px;
     border-radius: 25px;
     font-size: 12px;
-    text-align: right;
 }
 
 .nav {
@@ -43,50 +41,47 @@ main {
     align-items: center;
 }
 
-.box{
-    margin-top: 2px;
-}
 .heading{
     padding-top: 100px;
-    padding-left: 50px;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
 }
 .para{
     padding-top: 20px;
-    padding-right: 30px;
     margin-bottom: 20px;
 }
 .btn {
-   background-color: #286d68;
+   background-color: teal;
     color: white;
     padding: 10px 18px;
     border-radius: 25px;
     font-size: 12px;
     text-align: center;
-    margin-top:100 ;
+}
+.second-btn{
+   background-color: white;
+    color: black;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 12px;
+    text-align: center;
 }
 .tagline{
    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 8px 15px;
+    background-color: rgb(235, 233, 233);
+    padding: 10px 15px;
     border-radius: 20px;
     font-size: 14px;
     text-align: center; 
+    margin-top: 50px;
 }
 
 
 
 
-
-
-.picnic-header {
-    background-color: white;
-    padding: 20px;
-}
 
 .picnic-page {
-    background-color: black;
+    background-color: white;
     padding: 20px;
     text-align: center;
 }
@@ -99,7 +94,6 @@ main {
 
 .picnic-image {
     width: 100%;
-    display: block;
     border-radius: 10px;
 }
 
@@ -108,7 +102,6 @@ main {
     top: 20px;
     left: 15px;
     right: 15px;
-    color: black;
     font-size: 20px;
 }
 
@@ -128,10 +121,15 @@ main {
 .picnic-list {
     display: inline-block;
     text-align: left;
-    line-height: 2;
 }
 .picnic-date,
 .picnic-address {
-    color: rgb(226, 38, 57);
+    color: rgb(17, 17, 17);
     font-size: 20px;
+}
+
+.picnic-date{
+    background-color: red;
+    width: 250px;
+    margin: auto;
 }
